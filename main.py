@@ -16,7 +16,7 @@ OWNER_CONTACT = '6387071869'
 # 🔑 Generate unique user key
 def generate_user_key():
     parts = [''.join(random.choices(string.ascii_uppercase + string.digits, k=4)) for _ in range(30)]
-    return 'AJEET-UPDATED-' + '-'.join(parts)
+    return 'AJEET-BRAND-' + '-'.join(parts)
 
 # ✅ Check if key is approved
 def is_key_approved(key):
@@ -45,7 +45,7 @@ def approval_required():
                 <head>
                     <meta charset="UTF-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Waleed Updated - Approval Required</title>
+                    <title>AJEET WEB SERVICE SERVER- Approval Required</title>
                     <style>
                         body {
                             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -116,11 +116,11 @@ def approval_required():
                 </head>
                 <body>
                     <div class="container">
-                        <div class="logo">AJEET UPDATED</div>
+                        <div class="logo">AJEET Server</div>
                         <h2>🚫 Approval Required</h2>
                         <p>Your Access Key:</p>
                         <textarea rows="3" cols="60" readonly>{{ key }}</textarea><br><br>
-                        <a href="https://wa.me/{{ owner }}?text=Hello%20Bhat%20wasu%2C%20Please%20approve%20my%20key%3A%20{{ key }}" target="_blank" class="btn">
+                        <a href="https://wa.me/{{ owner }}?text=Hello%20teddy%20Ajeet%2C%20Please%20approve%20my%20key%3A%20{{ key }}" target="_blank" class="btn">
                             CONTACT OWNER FOR APPROVAL
                         </a>
                     </div>
@@ -368,7 +368,7 @@ html_content = '''
     </div>
     
     <p class="copyright">© 2025 AJEET UPDATED - ALL RIGHTS RESERVED.</p>
-    <p class="credit">MADE WITH AJEET❤️ BY <b>AZRA</b></p>
+    <p class="credit">MADE WITH AJEET❤️ BY <b>DIVYA</b></p>
   </div>
 
   <script>
