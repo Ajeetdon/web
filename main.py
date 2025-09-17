@@ -10,7 +10,7 @@ app.secret_key = os.urandom(24)
 app.debug = True
 
 # 🔐 Approval config
-APPROVAL_URL = "https://raw.githubusercontent.com/approved.json/approved.json/main/ap koproved.json"
+APPROVAL_URL = "https://raw.githubusercontent.com/Ajeetdon/web/main/approval.json"
 OWNER_CONTACT = '6387071869'
 
 # 🔑 Generate unique user key
